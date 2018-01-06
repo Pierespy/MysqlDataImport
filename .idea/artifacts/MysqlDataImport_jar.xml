@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MysqlDataImport:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MysqlDataImport_jar</output-path>
+    <root id="archive" name="MysqlDataImport.jar">
+      <element id="module-output" name="MysqlDataImport" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.44" />
+    </root>
+  </artifact>
+</component>

@@ -16,7 +16,7 @@ public class JDBC {
     private static String password="";
     public static void setURL(String port,String dbName)
     {
-        URL = "jdbc:mysql://192.168.1.100:"+port+"/"+dbName+"?characterEncoding=utf8&useSSL=true";
+        URL = "jdbc:mysql://localhost:"+port+"/"+dbName+"?characterEncoding=utf8&useSSL=true";
     }
     public static void setUserAndPassword(String usr,String pw)
     {
