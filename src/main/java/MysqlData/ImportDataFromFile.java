@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class ImportDataFromFile {
     public static void main(String[] args) {
         try {
-            File mysqlActRecord = new File("");
-            File mysqlMovie = new File("");
+            File mysqlActRecord = new File("C:/Users/37701/Desktop/mysqlactrecord");
+            File mysqlMovie = new File("C:/Users/37701/Desktop/mysqlmovie");
             File mysqlComment = new File("");
-            Dao.JDBC.setURL("3306","");
+            Dao.JDBC.setURL("3306","datawarehouse");
             Dao.JDBC.setUserAndPassword("root","ibm");
 
 

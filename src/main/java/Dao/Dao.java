@@ -587,15 +587,15 @@ public String getIdByName(String name,  String IdName){
 
 
 	}
-	public boolean insertComment(String userid,String movieid,  String comment,  int score, int year,int month,int day)
+	public boolean insertComment(String username,String movieid,  String comment,  int score, int year,int month,int day)
 	{
 		try
 		{
 
 			Connection conn = JDBC.getConnection();
-			String sql="insert into comment (userid,movieid,comment,score,year,month,day) values(?,?,?,?,?,?,?)";
+			String sql="insert into comment (username,movieid,comment,score,year,month,day) values(?,?,?,?,?,?,?)";
 			PreparedStatement pstmt=conn.prepareStatement(sql);
-			pstmt.setString(1, userid);
+			pstmt.setString(1, username);
 			pstmt.setString(2, movieid);
 			pstmt.setString(3, comment);
 			pstmt.setInt(4, score);
